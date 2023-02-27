@@ -11,6 +11,11 @@
 		881B114629ABDA9B00CB80E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881B114529ABDA9B00CB80E4 /* ContentView.swift */; };
 		881B114829ABDA9C00CB80E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881B114729ABDA9C00CB80E4 /* Assets.xcassets */; };
 		881B114B29ABDA9C00CB80E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881B114A29ABDA9C00CB80E4 /* Preview Assets.xcassets */; };
+		881B115329ABDF6900CB80E4 /* LearningAboutViewsPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881B115229ABDF6900CB80E4 /* LearningAboutViewsPosition.swift */; };
+		881B115529ABE4CB00CB80E4 /* LearningAligments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881B115429ABE4CB00CB80E4 /* LearningAligments.swift */; };
+		881B115729ABF89C00CB80E4 /* CreatingCustomAligment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881B115629ABF89C00CB80E4 /* CreatingCustomAligment.swift */; };
+		8884C02829AD2E5D00E6F9B4 /* LeariningPositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8884C02729AD2E5D00E6F9B4 /* LeariningPositions.swift */; };
+		8884C02A29AD2FBE00E6F9B4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8884C02929AD2FBE00E6F9B4 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		881B114529ABDA9B00CB80E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		881B114729ABDA9C00CB80E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		881B114A29ABDA9C00CB80E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		881B115229ABDF6900CB80E4 /* LearningAboutViewsPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningAboutViewsPosition.swift; sourceTree = "<group>"; };
+		881B115429ABE4CB00CB80E4 /* LearningAligments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningAligments.swift; sourceTree = "<group>"; };
+		881B115629ABF89C00CB80E4 /* CreatingCustomAligment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingCustomAligment.swift; sourceTree = "<group>"; };
+		8884C02729AD2E5D00E6F9B4 /* LeariningPositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeariningPositions.swift; sourceTree = "<group>"; };
+		8884C02929AD2FBE00E6F9B4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,7 @@
 		881B113729ABDA9B00CB80E4 = {
 			isa = PBXGroup;
 			children = (
+				8884C02929AD2FBE00E6F9B4 /* .gitignore */,
 				881B114229ABDA9B00CB80E4 /* LayoutAndGeometry */,
 				881B114129ABDA9B00CB80E4 /* Products */,
 			);
@@ -51,6 +62,7 @@
 		881B114229ABDA9B00CB80E4 /* LayoutAndGeometry */ = {
 			isa = PBXGroup;
 			children = (
+				881B115129ABDAA100CB80E4 /* Lessons */,
 				881B114329ABDA9B00CB80E4 /* LayoutAndGeometryApp.swift */,
 				881B114529ABDA9B00CB80E4 /* ContentView.swift */,
 				881B114729ABDA9C00CB80E4 /* Assets.xcassets */,
@@ -65,6 +77,17 @@
 				881B114A29ABDA9C00CB80E4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		881B115129ABDAA100CB80E4 /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				881B115229ABDF6900CB80E4 /* LearningAboutViewsPosition.swift */,
+				881B115429ABE4CB00CB80E4 /* LearningAligments.swift */,
+				881B115629ABF89C00CB80E4 /* CreatingCustomAligment.swift */,
+				8884C02729AD2E5D00E6F9B4 /* LeariningPositions.swift */,
+			);
+			path = Lessons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				881B114B29ABDA9C00CB80E4 /* Preview Assets.xcassets in Resources */,
+				8884C02A29AD2FBE00E6F9B4 /* .gitignore in Resources */,
 				881B114829ABDA9C00CB80E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				881B114629ABDA9B00CB80E4 /* ContentView.swift in Sources */,
+				881B115329ABDF6900CB80E4 /* LearningAboutViewsPosition.swift in Sources */,
+				8884C02829AD2E5D00E6F9B4 /* LeariningPositions.swift in Sources */,
+				881B115529ABE4CB00CB80E4 /* LearningAligments.swift in Sources */,
 				881B114429ABDA9B00CB80E4 /* LayoutAndGeometryApp.swift in Sources */,
+				881B115729ABF89C00CB80E4 /* CreatingCustomAligment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
